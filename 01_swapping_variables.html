@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>変数の入れ替え</title>
+</head>
+<body>
+    <h1>変数の入れ替えのアルゴリズム</h1>
+
+    <script>
+        var a = "orange juice";
+        console.log(`変数aは${a}`);
+
+        var b = "grape juice";
+        console.log(`変数bは${b}`);
+
+        // 変数aをwに移動
+        var w = a;
+        // 変数bをaに移動
+        var a = b;
+        // 変数wをbに移動
+        var b = w;
+
+        console.log(`変数aは${a}、変数bは${b}`);
+    </script>
+</body>
+</html>
